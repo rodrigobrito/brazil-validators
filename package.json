@@ -1,0 +1,27 @@
+{
+  "name": "brazil-validators",
+  "version": "0.0.1",
+  "description": "A library of validations applicable to several Brazilian data like I.E., CNPJ, CPF and others.",
+  "main": "dist/brazil-validators.js",
+  "scripts": {
+    "test": "gulp test-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigobrito/brazil-validators.git"
+  },
+  "keywords": [
+    "validator",
+    "validation",
+    "cpf",
+    "cnpj",
+    "ie",
+    "pis"
+  ],
+  "author": "R.S. Brito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodrigobrito/brazil-validators/issues"
+  },
+  "homepage": "https://github.com/rodrigobrito/brazil-validators#readme"
+}

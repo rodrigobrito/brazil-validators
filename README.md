@@ -1,0 +1,1 @@
+A library of validations applicable to several Brazilian data like I.E., CNPJ, CPF and others.
