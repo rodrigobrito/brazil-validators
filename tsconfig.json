@@ -1,0 +1,25 @@
+{
+  // "files": [
+  //   "src/cnpj.validator.ts",
+  //   "src/index.ts"
+  // ],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "declaration": true,
+    "outDir": "dist",
+    "lib": [
+      "es2016",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
