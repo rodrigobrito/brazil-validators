@@ -1,9 +1,4 @@
 {
-  "files": [
-    "src/brazil.validator.ts",
-    "src/cnpj.validator.ts",
-    "src/brazil.validators.ts"
-  ],
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
@@ -14,7 +9,7 @@
     "removeComments": false,
     "noImplicitAny": false,
     "declaration": true,
-    "outDir": "dist",
+    "outDir": "test",
     "lib": [
       "es2016",
       "dom"

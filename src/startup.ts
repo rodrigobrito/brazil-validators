@@ -13,14 +13,15 @@ export class Startup {
     private static checkCnpj(cnpj: string, validator: BrazilValidator) {
         this.writeLine("Validating CNPJ [" + cnpj + "].");
         if (validator.validate(cnpj)) {
-            this.writeLine("CNPJ [" + cnpj + "] is valid.");
+            this.writeLine("CNPJ [" + cnpj + "] is valid.\n");
         }
         else {
-            this.writeLine("CNPJ [" + cnpj + "] is invalid.");
+            this.writeLine("CNPJ [" + cnpj + "] is invalid.\n");
         }
     }
 
     public static main(): void {
+        this.writeLine('********************************* SIMPLE SAMPLE *********************************')
         this.checkCnpj('24.061.732/0001-50', new CnpjValidator());
         this.checkCnpj('24.061.732/0001-51', new CnpjValidator());
     }
